@@ -1,0 +1,129 @@
+
+h1{
+    color: #FFD700;
+    text-align: center;
+    font-size: 40px;
+}
+a, tr {
+    color: white;
+    text-align: left;
+}
+
+option{
+    color: black;
+}
+th{
+    color: #FFD700;
+    font-size: 20px;
+}
+
+table, tr, td{
+    border: 1px solid #FFD700;
+    border-collapse: collapse;
+    padding: 5px;
+
+}
+
+table{
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+a, button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.centro{
+    /*left: 50%;
+    position: absolute;
+    text-align: center;
+  
+  display: inline-block;*/
+  position: absolute;
+  padding-top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centro2{
+    position: absolute;
+ 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+/*---------------- NAVBAR ----------------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background: #242424;*/
+    background: #607B8B;
+}
+
+.menu,
+a,
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu li a {
+    transition: all .3s ease;
+}
+
+.menu a:hover{
+    /* color: #39f; */
+    color: #FFD700;
+}
+
+button{
+    padding: 9px 25px;
+    /* background: #0d94a6; */
+    background: #607B8B;
+    /* border: none;*/
+    border: 1px solid #FFD700;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+button:hover{
+    /* background: #39f; */
+    background: #FFD700;
+}
+
+/*---------------- FINE NAVBAR ----------------------*/
